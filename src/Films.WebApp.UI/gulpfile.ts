@@ -1,4 +1,4 @@
-const { series, parallel } = require('gulp');
+const { series, parallel, src, dest } = require('gulp');
 
 // The `clean` function is not exported so it can be considered a private task.
 // It can still be used within the `series()` composition.
