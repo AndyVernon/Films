@@ -8,4 +8,8 @@
     <DockerfileContext>..\Films</DockerfileContext>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Films.Components\Films.Components.csproj" />
+  </ItemGroup>
+
 </Project>
