@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Films.WebApp", "src\Films.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Components", "src\Films.Components\Films.Components.csproj", "{0F5B4AE2-E14C-4073-91A0-CD07E81F4C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Domain", "src\Films.Domain\Films.Domain.csproj", "{EA6E0FF6-00A6-4776-9B85-A5DEB829B978}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Films.WebApp.API", "src\Films.WebApp.API\Films.WebApp.API.csproj", "{C42FA011-7CB9-4DA8-AA8F-EDB7319EAB21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0F5B4AE2-E14C-4073-91A0-CD07E81F4C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F5B4AE2-E14C-4073-91A0-CD07E81F4C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F5B4AE2-E14C-4073-91A0-CD07E81F4C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6E0FF6-00A6-4776-9B85-A5DEB829B978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6E0FF6-00A6-4776-9B85-A5DEB829B978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6E0FF6-00A6-4776-9B85-A5DEB829B978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6E0FF6-00A6-4776-9B85-A5DEB829B978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42FA011-7CB9-4DA8-AA8F-EDB7319EAB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42FA011-7CB9-4DA8-AA8F-EDB7319EAB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42FA011-7CB9-4DA8-AA8F-EDB7319EAB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42FA011-7CB9-4DA8-AA8F-EDB7319EAB21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
